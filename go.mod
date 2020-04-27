@@ -1,4 +1,4 @@
-module github.com/victorsteven/fullstack
+module github.com/yangpeng-chn/fullstack
 
 go 1.13
 

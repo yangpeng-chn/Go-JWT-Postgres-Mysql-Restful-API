@@ -11,7 +11,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"    //mysql database driver
 	_ "github.com/jinzhu/gorm/dialects/postgres" //postgres database driver
 	_ "github.com/jinzhu/gorm/dialects/sqlite"   // sqlite database driver
-	"github.com/victorsteven/fullstack/api/models"
+	"github.com/yangpeng-chn/fullstack/api/models"
 )
 
 type Server struct {

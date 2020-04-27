@@ -1,11 +1,19 @@
-[![CircleCI](https://circleci.com/gh/victorsteven/Go-JWT-Postgres-Mysql-Restful-API.svg?style=svg)](https://circleci.com/gh/victorsteven/Go-JWT-Postgres-Mysql-Restful-API)
+# Run mysql and golang api with containers
 
-# Go-JWT-Postgres-Mysql-Restful-API
-This is a application build with golang, jwt, gorm, postgresql, mysql
+### How to run
 
-You can follow the guide here:
-https://levelup.gitconnected.com/crud-restful-api-with-go-gorm-jwt-postgres-mysql-and-testing-460a85ab7121
+```bash
+docker-compose up --build 
+```
 
-### Dockerizing the API
-The dockerized API is found here:
-https://github.com/victorsteven/Dockerized-Golang-Postgres-Mysql-API
+### Access
+
+API: [http://localhost:8080/](http://localhost:8080/)
+
+Mysqladmin: [http://localhost:9090/](http://localhost:9090/)
+
+### Stop
+
+```bash
+docker-compose down --remove-orphans --volumes
+```
